@@ -1,35 +1,170 @@
-images/
- ├── school.jpg
- ├── principal.jpg
- ├── gallery1.jpg
- ├── gallery2.jpg
- ├── gallery3.jpg
- └── logo.png
-<img src="images/school.jpg" alt="Urmila Public School" width="100%">
-<img src="images/logo.png" alt="School Logo" width="120">
-<div class="gallery">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Urmila Public School</title>
 
-<img src="images/gallery1.jpg" width="300">
+<link rel="stylesheet" href="style.css">
 
-<img src="images/gallery2.jpg" width="300">
+</head>
 
-<img src="images/gallery3.jpg" width="300">
+<body>
+
+<header>
+
+<div class="logo">
+<h1>🏫 Urmila Public School</h1>
+<p>Jodhepur Atheha, Pratapgarh, Uttar Pradesh</p>
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="about.html">About</a>
+
+<a href="admission.html">Admission</a>
+
+<a href="gallery.html">Gallery</a>
+
+<a href="notice.html">Notice</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="overlay">
+
+<h1>Welcome To Urmila Public School</h1>
+
+<p>
+
+Education is the passport to the future.
+
+</p>
+
+<a href="admission.html" class="btn">
+
+Admission Open
+
+</a>
 
 </div>
-.gallery{
-display:flex;
-gap:20px;
-flex-wrap:wrap;
-justify-content:center;
-}
 
-.gallery img{
-width:300px;
-border-radius:10px;
-box-shadow:0 0 10px gray;
-transition:.4s;
-}
+</section>
 
-.gallery img:hover{
-transform:scale(1.05);
-}
+<section class="about">
+
+<h2>About Our School</h2>
+
+<p>
+
+Urmila Public School provides quality education from Play Group to Class 12.
+
+Our mission is to build disciplined, knowledgeable and successful students.
+
+</p>
+
+</section>
+
+<section class="features">
+
+<div class="card">
+
+<h2>📚 Smart Classes</h2>
+
+<p>Digital Learning Environment</p>
+
+</div>
+
+<div class="card">
+
+<h2>🧑‍🏫 Experienced Teachers</h2>
+
+<p>Qualified Teaching Staff</p>
+
+</div>
+
+<div class="card">
+
+<h2>⚽ Sports</h2>
+
+<p>Indoor & Outdoor Activities</p>
+
+</div>
+
+<div class="card">
+
+<h2>💻 Computer Lab</h2>
+
+<p>Modern Computer Education</p>
+
+</div>
+
+</section>
+
+<section class="principal">
+
+<h2>Principal Message</h2>
+
+<img src="images/principal.jpg" width="180">
+
+<p>
+
+Welcome to Urmila Public School.
+
+Our goal is to provide excellent education and develop students into responsible citizens.
+
+</p>
+
+</section>
+
+<section class="gallery">
+
+<h2>School Gallery</h2>
+
+<img src="images/gallery1.jpg">
+
+<img src="images/gallery2.jpg">
+
+<img src="images/gallery3.jpg">
+
+</section>
+
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<p>
+
+📍 Jodhepur Atheha, Pratapgarh, Uttar Pradesh
+
+</p>
+
+<p>
+
+📞 6390068004
+
+</p>
+
+<p>
+
+📧 urmilapublicschool2017@gmail.com
+
+</p>
+
+</section>
+
+<footer>
+
+© 2026 Urmila Public School
+
+</footer>
+
+</body>
+</html>
