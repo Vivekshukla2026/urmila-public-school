@@ -1,0 +1,35 @@
+images/
+ ├── school.jpg
+ ├── principal.jpg
+ ├── gallery1.jpg
+ ├── gallery2.jpg
+ ├── gallery3.jpg
+ └── logo.png
+<img src="images/school.jpg" alt="Urmila Public School" width="100%">
+<img src="images/logo.png" alt="School Logo" width="120">
+<div class="gallery">
+
+<img src="images/gallery1.jpg" width="300">
+
+<img src="images/gallery2.jpg" width="300">
+
+<img src="images/gallery3.jpg" width="300">
+
+</div>
+.gallery{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.gallery img{
+width:300px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+transition:.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
