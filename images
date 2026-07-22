@@ -13,7 +13,6 @@
 
 <header>
 
-<div class="‪C:\Users\vivek\Desktop\school all docoment\SCHOOL LOGO.jpg">
 <h1>🏫 Urmila Public School</h1>
 <p>Jodhepur Atheha, Pratapgarh, Uttar Pradesh</p>
 </div>
@@ -168,3 +167,15 @@ Our goal is to provide excellent education and develop students into responsible
 
 </body>
 </html>
+.logo{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background:white;<header>
+    <img src="images/logo.png" alt="Urmila Public School Logo" class="logo">
+    <h1>Urmila Public School</h1>
+    <p>Jodhepur Atheha, Pratapgarh, Uttar Pradesh</p>
+</header>
+    padding:5px;
+    margin-bottom:10px;
+}
